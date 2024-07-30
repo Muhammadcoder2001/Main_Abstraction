@@ -30,5 +30,7 @@ public class Trapizuem extends GeometricFigure {
         super.area();
         this.area = 1/2 * (this.sideA + this.sideB) * this.high;
         System.out.println("Area of the Trapezium is equal to " + this.area);
+
     }
+
 }
